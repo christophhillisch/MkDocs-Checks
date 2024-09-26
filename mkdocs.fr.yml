@@ -1,0 +1,20 @@
+INHERIT: mkdocs.common.yml
+
+site_author: Chris Hill
+site_name: Mes docs
+site_url: http://localhost:8000/fr/
+docs_dir: "docs/fr"
+site_dir: "site/fr"
+
+theme:
+  language: fr
+
+plugins:
+  search:
+    lang: fr
+
+nav:
+  - index.md
+  - "Admin Fr":
+      - admin/info.md
+      - admin/legal.md
